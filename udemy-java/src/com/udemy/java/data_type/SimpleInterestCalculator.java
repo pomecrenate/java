@@ -1,4 +1,4 @@
-package com.udemy.java;
+package com.udemy.java.data_type;
 
 import java.math.BigDecimal;
 

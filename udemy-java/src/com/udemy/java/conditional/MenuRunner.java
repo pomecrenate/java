@@ -1,4 +1,4 @@
-package com.udemy.java;
+package com.udemy.java.conditional;
 
 import java.util.Scanner;
 

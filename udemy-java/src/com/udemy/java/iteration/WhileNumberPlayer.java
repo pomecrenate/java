@@ -1,4 +1,4 @@
-package com.udemy.java;
+package com.udemy.java.iteration;
 
 public class WhileNumberPlayer {
   // while문 연습

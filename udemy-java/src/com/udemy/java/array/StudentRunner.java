@@ -1,9 +1,9 @@
-package com.udemy.java;
+package com.udemy.java.array;
 
 import java.math.BigDecimal;
 
 public class StudentRunner {
-  // 배열 연습
+
   public static void main(String[] args) {
     int[] marks = {98, 89, 100};
 

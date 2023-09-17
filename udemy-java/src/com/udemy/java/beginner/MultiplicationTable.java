@@ -1,4 +1,4 @@
-package com.udemy.java;
+package com.udemy.java.beginner;
 
 public class MultiplicationTable {
   // 메소드 연습

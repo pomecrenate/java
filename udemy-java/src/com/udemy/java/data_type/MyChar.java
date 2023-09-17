@@ -1,4 +1,4 @@
-package com.udemy.java;
+package com.udemy.java.data_type;
 
 public class MyChar {
   // char 자료형 연습

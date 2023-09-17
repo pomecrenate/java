@@ -1,4 +1,4 @@
-package com.udemy.java;
+package com.udemy.java.beginner;
 
 public class HelloWorld {
   // 클래스 연습

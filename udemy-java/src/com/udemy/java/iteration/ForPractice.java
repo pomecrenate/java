@@ -1,4 +1,4 @@
-package com.udemy.java;
+package com.udemy.java.iteration;
 
 public class ForPractice {
   // for문 개인 연습

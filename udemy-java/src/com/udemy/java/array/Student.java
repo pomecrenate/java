@@ -1,10 +1,11 @@
-package com.udemy.java;
+package com.udemy.java.array;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Arrays;
 
 public class Student {
+  // 배열 연습
   private String name;
   private int[] marks;
 
