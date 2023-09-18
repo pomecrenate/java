@@ -23,6 +23,7 @@ public class StudentRunner {
 
     BigDecimal average = student.getAverageMarks();
     System.out.println(average);
+
   }
 
 }

@@ -12,8 +12,8 @@ public class Student {
   public Student() {
 
   }
-
-  public Student(String name, int[] marks) {
+  // 가변 인수 리팩토링
+  public Student(String name, int... marks) {
     this.name = name;
     this.marks = marks;
   }
