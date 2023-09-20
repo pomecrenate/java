@@ -1,4 +1,4 @@
-package com.udemy.oops;
+package com.udemy.oops.first;
 
 public class MotorBike {
   //state, 인스턴스 변수
