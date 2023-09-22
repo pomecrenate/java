@@ -1,6 +1,8 @@
 package com.udemy.java.array;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 
 public class StudentRunner {
 
@@ -29,6 +31,19 @@ public class StudentRunner {
 
     student.removeMarkAtIndex(1);
     System.out.println(student);
+
+    // 루프 테스트
+    List<String> words = new ArrayList<>();
+    words.add("Apple");
+    words.add("Bat");
+    words.add("Cat");
+    System.out.println(words);
+    for (String word : words) {
+      if (word.endsWith("at")) {
+        words.remove(word);
+      }
+    }
+    System.out.println(words);
   }
 
 }
