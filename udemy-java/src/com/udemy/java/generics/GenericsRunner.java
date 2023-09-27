@@ -16,6 +16,9 @@ public class GenericsRunner {
 
   // Number 클래스의 모든 요소 합산
   // 상한 경계 와일드카드(Upper Bound Wildcard) 사용
+  // Number 이하의 클래스를 모두 사용 가능
+  // 인스턴스 생성 전까지 Number 클래스일지 하위 클래스일지 모르므로
+  // 로컬 변수는 Number 하위 클래스일 수 없음
   static double sumOfNumberList(List<? extends Number> numbers) {
     double sum = 0.0;
     for (Number number : numbers) {
@@ -25,6 +28,9 @@ public class GenericsRunner {
   }
 
   //하한 경계 와일드카드(Lower Bound Wildcard) 사용
+  // Number 이상의 클래스를 모두 사용 가능
+  // 인스턴스 생성 전까지 Number 클래스일지 상위 클래스일지 모르므로
+  // 로컬 변수는 Object 하위 클래스일 수 없음
   static void addACoupleOfValues(List<? super Number> numbers) {
     numbers.add(1);
     numbers.add(1.0);
