@@ -14,6 +14,7 @@ public class Employee extends Person {
   public Employee(String name, String title) {
     super(name);
     this.title = title;
+    System.out.println("Employee Title Constructor");
   }
 
   public String getTitle() {
