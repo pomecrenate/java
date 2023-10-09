@@ -10,9 +10,12 @@ class Client {
     this.id = id;
   }
 
+  // hashing function == hash code
   @Override
   public int hashCode() {
     return Objects.hash(id);
+    // id가 동일하면 hash code도 동일
+    // hash code는 id가 변하지 않으면 불변
   }
 
   @Override
