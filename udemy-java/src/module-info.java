@@ -6,4 +6,5 @@
  *
  */
 module UdemyJava {
+  requires java.logging;
 }
